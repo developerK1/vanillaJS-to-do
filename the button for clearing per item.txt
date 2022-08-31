@@ -1,0 +1,13 @@
+creating animation fr the clear all...
+
+make the pop-up alert ( this is deliting );
+
+
+
+Stroy
+Getting into bad trafffic is always bad until you have a gem of an idea what you will do first...
+When the idea of a wish of having notepad rings louder then commutor's hooters.
+
+Really learnig comes with practice, I thank myself for start with the lotto app which gave me a leap into deeping my understanding of how repond to mouse clicks on couple of moving components on same time..
+
+Now I can say that making this sample app was the simple thing I ever done on JS. 

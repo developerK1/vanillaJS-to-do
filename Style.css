@@ -1,0 +1,122 @@
+* {
+	margin : 10px;
+	padding : 0px;
+	box-sizing :border-box;
+}
+#to-do-sect {
+	width : 100vw;
+	height : 100vh;
+	background-color :black;
+	display :flex;
+	flex-direction :column;
+	justify-content :space-around;
+	align-items :center;
+	text-align :center;
+	position :absolute;
+}
+.wrapper {
+	display : flex;
+	flex-direction :column;
+	justify-content :space-around;
+	background-color :white;
+	align-items :cener;
+	width : 400px;
+	padding : 1% 3%;
+	border  : 8px red solid;
+	border-radius : 15px ;
+}
+.wrapper button {
+	padding:5px ;
+	cursor  :pointer;
+	height : 36px;
+	width : 70px;
+	border-radius : 8px;
+	transition : 1s;
+}
+.wrapper button:focus {
+	outline : none;
+	border : 1px solid red;
+}
+.wrapper button:nth-child(1){
+	background-color : black ;
+	color :white;
+	font-weight : 700;
+}
+.wrapper button:nth-child(1):hover {
+	background-color :red;
+	color :white;
+}
+.wrapper button:nth-child(2){
+	background-color : white ;
+	color :black;
+	font-weight : 700;
+}
+.wrapper button:nth-child(2):hover {
+	background-color :#7b6060;
+	color :white;
+}
+.wrapper input {
+	width : 90%;
+	margin : 10px auto;
+	height : 30px;
+	line-height : 28px;
+	text-align :center;
+}
+.wrapper h4 {
+	letter-spacing : 1.2px;
+	text-align :center;
+	font-weight : 300;
+	background-color : black;
+	color :white;
+	padding : 5px;
+}
+ul {
+	list-style :none;
+	width : 100%;
+	margin : -10px auto 0px auto;
+}
+ul li {
+	font-size : 21px;
+	font-weight : 500;
+	letter-spacing : 1px;
+	display :flex;
+	justify-content :center;
+	line-height : 50px;
+	
+}
+figure {
+	position :absolute;
+	top : 55%;
+	left : 50%;
+	width : 80%;
+	border : 3px solid red;
+	height : 60%;
+	transform : translate(-50%, -50%);
+	z-index : 10;
+	background-color : black;
+	color :white;
+	display : flex;
+	justify-content : center;
+	align-items :center;
+	
+	display : none;
+}
+ .disabled {
+	 pointer-events : none;
+	 opacity : 0.2;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
